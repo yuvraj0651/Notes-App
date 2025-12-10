@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        @apply bg-gradient-to-r from-purple-600 to-blue-500
+    }
+
+    .notes-form-group {
+        @apply mb-3
+    }
+
+    .notes-form-group label {
+        @apply block tracking-wide font-[400] capitalize text-[1.1rem] mb-2
+    }
+
+    .notes-form-group input {
+        @apply border border-[#ccc] w-full py-2 px-3 rounded-[5px] tracking-wide text-[1rem] focus:outline-0
+    }
+
+    .notes-form-group textarea {
+        @apply border border-[#ccc] w-full py-2 px-3 rounded-[5px] tracking-wide text-[1rem] focus:outline-0
+    }
+
+    .notes-form-group input::placeholder {
+        @apply capitalize font-[500] tracking-wide
+    }
+
+    .notes-form-group textarea::placeholder {
+        @apply capitalize font-[500] tracking-wide
+    }
+
+    .search-bar--group label {
+        @apply mb-2 tracking-wide font-[500] text-white capitalize block text-[1.1rem]
+    }
+
+    .search-bar--group input {
+        @apply w-full py-2 px-4 border border-[#ccc] rounded-[7px] focus:outline-0
+    }
+
+    .search-bar--group input::placeholder{
+        @apply capitalize font-[400] tracking-wide
+    }
+}
