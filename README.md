@@ -1,4 +1,5 @@
 # 📝 Notes App 
+![Notes-App](https://github.com/user-attachments/assets/3eec121d-067d-4e4a-9310-ae58dde04190)
 
 ## 📌 Overview
 A simple and efficient Notes Application that allows users to create, edit, and delete notes with persistent storage.
@@ -33,6 +34,11 @@ A simple and efficient Notes Application that allows users to create, edit, and 
 - Local storage handling
 - CRUD operations
 - UI state management
+
+---
+
+## 🔗 Live Demo  
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://notesify-dashboard.netlify.app/)
 
 ---
 
